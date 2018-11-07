@@ -541,7 +541,7 @@ MESSAGE
 
       haml_internal_concat_raw tag
       tab_up
-      block.call
+      haml_internal_concat capture_haml(&block)
       tab_down
       haml_internal_concat_raw end_tag
 
